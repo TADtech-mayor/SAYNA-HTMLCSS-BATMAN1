@@ -8,20 +8,26 @@
 </head>
 <body>
     <header>
+        <div id="debut_header">
         <img src="/Assets/Logos/logohome.png" alt="la Csouris">
         <h1>HOME</h1>
-        <p>Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les criminels de Gotham City. Il est vengeur. Il est la nuit. <br>
-             <b>Il est Batman.</b></p>
+        </div>
+        <p>Au nom de ses parents assassinés, Bruce Wayne mène <br> une guerre éternelle contre les criminels de Gotham City. <br> Il est vengeur. Il est la nuit. <br>
+             
+            <b>Il est Batman.</b></p>
+      <div id="header_btn_div">
         <button>voir le hero</button>
         <button>les adversaires</button>
+        </div>
         <br>
-        <img src="/Assets/Logos/flèche_down_header.png" alt="fleche vers le ">
+        
     </header>
+    <img id="img2" src="/Assets/Logos/flèche_down_header.png" alt="fleche vers le ">
     <main>
-        <section>
+        <section id="section_1">
             <h1>BATMAN AU CINEMA</h1>
             <p> Le personnage de Batman est un super héros de l’univers de DC Comics. Il a été créé par le dessinateur Bob Kane et le scénariste Bill Finger et apparaît pour la première fois dans le comic book Detective Comics en 1939. Batman se différencie de Superman, alors héros majeur de DC, car il n’a aucun pouvoir. Il sera porté au cinema pour la première fois en 1943 par Lewis Wilson et bénéficiera de nombreux reboot, donnant l’occasion à de multiples acteurs d’interpréter l’homme chauve-souris. Voici les trois derniers :</p>
-            <div>
+            <div class="conteneur_de_trois_images">
                 <figure>
                     <img src="/Assets/Illustrations/Bathome2.png" alt="photo du batman">
                     <figcaption>Robert Pattinson (2022)</figcaption>
@@ -40,7 +46,7 @@
             <h1>NEMESIS</h1>
             <img src="/Assets/Illustrations/Bathome13.png" alt="image de la Csouris">
             <P>Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il affrontera la plupart du temps, des vilains sans capacités surnaturelles mais particulièrement violents ou psychopathes. Avec son introduction dans la Justice League il aura l’occasion de se mesurer à des antagonistes qui défient l’imagination et les lois de la physique. Parmi les derniers ennemis emblématiques que nous avons pu voir au cinéma, on retrouve :</P>
-            <div>
+            <div class="conteneur_de_trois_images">
                 <figure>
                     <img src="/Assets/Illustrations/Bathome5.png" alt="photo de Riddler">
                     <figcaption>The Riddler - Paul Dano (2022)</figcaption>
@@ -59,7 +65,7 @@
         <section>
             <h1>ALLIES</h1>
             <p>Alfred est le majordome des Wayne. A leur mort il s’occupe de l’éducation du jeune Bruce avant de l’assister dans son rôle du Batman. Ce dernier rencontrera Catwoman dès le premier numéro des aventures de l’homme chauve-souris en 1940. Tantôt ennemie tantôt alliée la jeune femme fatale fera tourner la tête de Batman à maintes reprises. Du côté de la police, Bruce pourra compter sur l’aide infaillible de James Gordon, “Jim”, qui désire lui aussi nettoyer sa ville de la criminalité qui y règne.</p>
-            <div>
+            <div class="conteneur_de_trois_imagesconteneur_de_trois_images">
                 <figure>
                     <img src="/Assets/Illustrations/Bathome9.png" alt="photo de Alfred">
                     <figcaption>Alfred Pennyworth - Michael Cain (2006 - 2008 - 2012)</figcaption>
@@ -117,9 +123,9 @@
                 </select>
                 <input type="text" placeholder="Souhaitez-vous recevoir des news">
                 <div>
-                    <button>Des films</button>
-                    <button>Des comics</button>
-                    <button>De tout</button>
+                    <button type="button">Des films</button>
+                    <button type="button">Des comics</button>
+                    <button type="button">De tout</button>
                 </div>
                 <h2>MESSAGE</h2>
                 <textarea name="" id="">Laissez un commentaire pour la communauté</textarea>
